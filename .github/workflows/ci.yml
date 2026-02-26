@@ -61,5 +61,5 @@ jobs:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ton-username/ton-image
+  IMAGE_NAME: Dms237/agent
 
