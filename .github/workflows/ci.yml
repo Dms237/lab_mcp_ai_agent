@@ -61,5 +61,5 @@ jobs:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: Dms237/agent
+  IMAGE_NAME: dms237/agent
 
