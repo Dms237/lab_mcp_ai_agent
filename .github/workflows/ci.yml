@@ -59,3 +59,7 @@ jobs:
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ton-username/ton-image
+
