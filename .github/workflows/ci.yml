@@ -25,7 +25,7 @@ jobs:
         run: ./gradlew --no-daemon clean test
 
       - name: Docker Build (no push)
-        run: docker build -t local/agent:ci. 
+        run: docker build -t local/agent:ci . 
   build-and-push:
     runs-on: ubuntu-latest
     steps:
